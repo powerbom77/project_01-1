@@ -11,21 +11,36 @@ print("문자의 길이:\t" , len(q1))
 # 2. print 함수를 사용해서 아래와 같이 출력해보세요.
 #    apple;orange;banana;lemon
 
+print("정답은 : \t",'''apple;orang;bannana;lemon''')
+
 
 # 3. 화면에 * 기호 100개를 표시하세요.
+print("*"*100)
 
 
 # 4. 문자열 "30" 을 각각 정수형, 실수형, 복소수형, 문자형으로 변환해보세요.
 
+a = str("30")
+
+print('4. 정수형:\t', int(a))
+print('   실수형:\t', float(a))
+print('   복소수형:\t', complex(a))
+print('   문자형:\t', a)
 
 # 5. 다음 문자열 "Niceman" 에서 "man" 문자열만 추출해보세요.
+a = "Niceman"
+
+print("답은 : \t",a[4:7])
 
 
 # 6. 다음 문자열을 거꾸로 출력해보세요. : "Strawberry"
-
-
+a = "Strawberry"
+print("정답은용 : ", a[::-1])
 # 7. 다음 문자열에서 '-'를 제거 후 출력하세요. : "010-7777-9999"
+a7 = "010-7777-9999"
 
+import re
+print(re.sub('[^0-9]','',a7)) 
 
 # 8. 다음 문자열(URL)에서 "http://" 부분을 제거 후 출력하세요. : "http://daum.net"
 
