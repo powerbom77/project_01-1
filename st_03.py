@@ -115,4 +115,6 @@ a = (5, 2, 3, 1, 4)
 
 print('a - ', a)
 print('a - ', a.index(5))
-print('a - ', a.count(4))
+
+
+#집합[순서없음 중복안됨] 
