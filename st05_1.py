@@ -16,7 +16,7 @@ if False:
     # 출력되지 않음.
     print("No")
 
-# 예2
+# 예2 ㅇㅇ
 if False:
     # 여기는 실행되지 않음.
     print("You can't reach here")
